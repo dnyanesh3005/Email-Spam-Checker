@@ -17,7 +17,6 @@ This repository contains code to train a model (**Email Spam Checker**), save/lo
 ---
 
 ## 📁 Project Structure
-
 email-spam-checker/
 ├─ data/
 │ ├─ spam.csv
