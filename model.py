@@ -7,6 +7,8 @@ import string
 
 nltk.download('punkt')
 nltk.download('stopwords')
+nltk.download('punkt_tab')
+
 
 ps = PorterStemmer()
 stopword_list = stopwords.words('english')
@@ -54,4 +56,5 @@ if st.button("Check Email"):
             st.success("The email is classified as NOT SPAM.")  
 
 st.markdown("Note: This is a demo application built by Dnyaneshwar Kale for educational purposes.")
+
 
