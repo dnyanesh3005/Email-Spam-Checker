@@ -12,7 +12,7 @@ ps = PorterStemmer()
 stopword_list = stopwords.words('english')
 
 
-st.title("Spma Email Checker")
+st.title("Spam Email Checker")
 st.write("This app checks whether an email is spam or not using a pre-trained model.")
 # Load the pre-trained model
 model = joblib.load("model.joblib")
@@ -54,3 +54,4 @@ if st.button("Check Email"):
             st.success("The email is classified as NOT SPAM.")  
 
 st.markdown("Note: This is a demo application built by Dnyaneshwar Kale for educational purposes.")
+
