@@ -16,18 +16,21 @@ This repository contains code to train a model (**Email Spam Checker**), save/lo
 
 ---
 
-## 📁 Project Structure email-spam-checker/
+## 📁 Project Structure
+
+```text
+email-spam-checker/
 ├─ data/
-│ ├─ spam.csv
+│  ├─ spam.csv
 │
 ├─ notebooks/
-│ └─ Email Spam Checker.ipynb
+│  └─ Email Spam Checker.ipynb
 ├─ src/
-│ ├─ vectorizer.joblib # TF-IDF / vectorizers
-├─ app.py # Streamlit app
+│  ├─ vectorizer.joblib        # TF-IDF / vectorizers
+├─ app.py                      # Streamlit app
 ├─ requirements.txt
 ├─ model/
-│ └─ model.joblib # saved trained model (optional)
+│  └─ model.joblib             # saved trained model (optional)
 ├─ README.md
 └─ LICENSE
 
