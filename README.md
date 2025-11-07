@@ -17,6 +17,8 @@ Streamlit web app for interactive predictions
 
 Example dataset processing and evaluation with confusion matrix & classification report
 
+## 📁 Project Structure
+
 
 email-spam-checker/
 ├─ data/
@@ -32,6 +34,7 @@ email-spam-checker/
 │  └─ model.joblib             # saved trained model (optional)
 ├─ README.md
 └─ LICENSE
+
 
 Run the Streamlit demo locally:
 pip install -r requirements.txt
