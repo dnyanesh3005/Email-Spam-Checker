@@ -52,9 +52,14 @@ if st.button("Check Email"):
         prediction = model.predict(input_vectorized)
         if prediction[0] == 1:
             st.error("The email is classified as SPAM.")
+        elif prediction[0] == 0:
+            st.success("The email is classified as NOT SPAM.")
         else:
-            st.success("The email is classified as NOT SPAM.")  
+            st.warning("Unexpected prediction result.")
+    else:
+        st.warning("Please enter some email text to check.") 
 
 st.markdown("Note: This is a demo application built by Dnyaneshwar Kale for educational purposes.")
+
 
 
