@@ -19,21 +19,20 @@ Example dataset processing and evaluation with confusion matrix & classification
 
 ## 📁 Project Structure
 
-
-email-spam-checker/
-├─ data/
-│  ├─ spam.csv                
-│  
-├─ notebooks/
-│  └─ Email Spam Checker.ipynb
-├─ src/
-│  ├─ vectorizer.joblib        # TF-IDF / vectorizers
-├─ app.py                      # Streamlit app
-├─ requirements.txt
-├─ model/
-│  └─ model.joblib             # saved trained model (optional)
-├─ README.md
-└─ LICENSE
+   email-spam-checker/
+   ├─ data/
+   │  ├─ spam.csv                
+   │  
+   ├─ notebooks/
+   │  └─ Email Spam Checker.ipynb
+   ├─ src/
+   │  ├─ vectorizer.joblib        # TF-IDF / vectorizers
+   ├─ app.py                      # Streamlit app
+   ├─ requirements.txt
+   ├─ model/
+   │  └─ model.joblib             # saved trained model (optional)
+   ├─ README.md
+   └─ LICENSE
 
 
 Run the Streamlit demo locally:
