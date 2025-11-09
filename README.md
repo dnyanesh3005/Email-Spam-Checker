@@ -30,7 +30,7 @@ email-spam-checker/
 ├─ app.py                      # Streamlit app
 ├─ requirements.txt
 ├─ model/
-│  └─ model.joblib             # saved trained model (optional)
+│  └─ model.joblib             # saved trained model 
 ├─ README.md
 └─ LICENSE
 
