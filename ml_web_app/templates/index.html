@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Spam Detector</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="card">
+            <h1 class="title">📧 Email Spam Detector</h1>
+            <p class="subtitle">Detect whether your email is <span>Spam</span> or <span>Not Spam</span> instantly!</p>
+
+            <form action="/predict" method="post" class="form">
+                <textarea name="email" placeholder="Enter your email content here..." required></textarea>
+                <button type="submit">Check Now 🚀</button>
+            </form>
+
+            {% if prediction_text %}
+                <div class="result">
+                    <h2>{{ prediction_text }}</h2>
+                </div>
+            {% endif %}
+        </div>
+    </div>
+</body>
+</html>
